@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Explore Pakistan With Ziad</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+<style>
+*{margin:0;padding:0;box-sizing:border-box;font-family:'Poppins',sans-serif;}
+body{background:#f5f7fa;color:#333;}
+header{
+background:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),
+url('https://images.unsplash.com/photo-1605540436563-5bca919ae766');
+background-size:cover;
+background-position:center;
+height:90vh;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+color:white;
+text-align:center;
+}
+header h1{font-size:50px;font-weight:700;}
+header p{margin-top:10px;font-size:20px;}
+header a{
+margin-top:20px;
+padding:12px 25px;
+background:#ff6b6b;
+color:white;
+text-decoration:none;
+border-radius:30px;
+font-weight:600;
+}
+nav{
+background:#0a3d62;
+padding:15px;
+text-align:center;
+}
+nav a{
+color:white;
+margin:0 15px;
+text-decoration:none;
+font-weight:500;
+}
+section{padding:60px 10%;}
+
+h2{text-align:center;margin-bottom:40px;color:#0a3d62;}
+
+.packages{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+gap:30px;
+}
+.card{
+background:white;
+padding:25px;
+border-radius:10px;
+box-shadow:0 10px 25px rgba(0,0,0,0.1);
+}
+.card h3{margin-bottom:10px;}
+.price{color:#e74c3c;font-weight:bold;font-size:22px;margin-bottom:15px;}
+
+ul{margin-left:20px;margin-bottom:15px;}
+
+.btn{
+display:inline-block;
+padding:10px 20px;
+background:#0a3d62;
+color:white;
+text-decoration:none;
+border-radius:25px;
+}
+
+form{
+max-width:600px;
+margin:auto;
+display:flex;
+flex-direction:column;
+gap:15px;
+}
+input,textarea{
+padding:10px;
+border-radius:5px;
+border:1px solid #ccc;
+}
+button{
+padding:12px;
+background:#ff6b6b;
+color:white;
+border:none;
+border-radius:25px;
+cursor:pointer;
+font-weight:600;
+}
+
+footer{
+background:#0a3d62;
+color:white;
+text-align:center;
+padding:20px;
+margin-top:40px;
+}
+
+.whatsapp{
+position:fixed;
+bottom:20px;
+right:20px;
+background:#25D366;
+color:white;
+padding:15px;
+border-radius:50%;
+text-decoration:none;
+font-size:20px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<h1>Explore Pakistan With Ziad</h1>
+<p>Your Trusted Local Guide for European Travelers</p>
+<a href="#booking">Plan Your Trip</a>
+</header>
+
+<nav>
+<a href="#about">About</a>
+<a href="#packages">Packages</a>
+<a href="#services">Services</a>
+<a href="#booking">Booking</a>
+<a href="#policy">Policy</a>
+</nav>
+
+<section id="about">
+<h2>About Me</h2>
+<p style="text-align:center;max-width:800px;margin:auto;">
+I am Muhammad Ziad, a professional Pakistani tour guide providing complete travel support from airport pickup to airport drop-off. My mission is to ensure safety, comfort, and unforgettable experiences for European visitors exploring Pakistan.
+</p>
+</section>
+
+<section id="packages">
+<h2>Tour Packages</h2>
+<div class="packages">
+
+<div class="card">
+<h3>Hunza & Skardu Premium Tour</h3>
+<p class="price">£2000 per person</p>
+<ul>
+<li>Airport Pickup & Drop-Off</li>
+<li>Private Transport</li>
+<li>Hotel Assistance</li>
+<li>Guided Sightseeing</li>
+<li>24/7 Support</li>
+</ul>
+<a href="#booking" class="btn">Book Now</a>
+</div>
+
+<div class="card">
+<h3>Swat Valley Tour</h3>
+<p class="price">£1600 per person</p>
+<ul>
+<li>Complete Travel Guidance</li>
+<li>Hotel Assistance</li>
+<li>Mountain & Lake Tours</li>
+<li>Transport Arrangement</li>
+</ul>
+<a href="#booking" class="btn">Book Now</a>
+</div>
+
+<div class="card">
+<h3>Sulaiman Mountains Adventure</h3>
+<p class="price">£1200 per person</p>
+<ul>
+<li>Airport Pickup & Drop-Off</li>
+<li>Cultural Exploration</li>
+<li>Mountain Hiking</li>
+<li>Private Guided Tour</li>
+</ul>
+<a href="#booking" class="btn">Book Now</a>
+</div>
+
+</div>
+</section>
+
+<section id="services">
+<h2>Services Included</h2>
+<ul>
+<li>Full Trip Guidance (Arrival to Departure)</li>
+<li>Secure Travel Planning</li>
+<li>Local Cultural Experience</li>
+<li>Flexible Custom Packages</li>
+<li>Professional English Communication</li>
+</ul>
+</section>
+
+<section id="booking">
+<h2>Book Your Tour</h2>
+<form>
+<input type="text" placeholder="Full Name" required>
+<input type="email" placeholder="Email Address" required>
+<input type="text" placeholder="Country">
+<textarea rows="5" placeholder="Write your travel plan or questions"></textarea>
+<button type="submit">Submit Booking Request</button>
+</form>
+</section>
+
+<section id="policy">
+<h2>Terms & Cancellation Policy</h2>
+<p>
+✔ 30% advance payment required for booking confirmation.<br>
+✔ Free cancellation up to 14 days before trip.<br>
+✔ 50% refund for cancellation within 7 days.<br>
+✔ No refund for last 48-hour cancellation.<br>
+✔ Travel insurance recommended for all visitors.
+</p>
+</section>
+
+<footer>
+<p>© 2026 Explore Pakistan With Ziad | All Rights Reserved</p>
+<p>Email: mziad1563@gmail.com | WhatsApp: +923236491563</p>
+</footer>
+
+<a class="whatsapp" href="https://wa.me/923108326920">💬</a>
+
+</body>
+</html>
